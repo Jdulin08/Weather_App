@@ -24,6 +24,6 @@
 
 ## Errors/Glitches
 
-* The API from openweathermap is not the current daily weather. It is static so in order to make this a live weather app, it would be necessary to find a new API/API Key that offers real-time weather data.
-
 * Deploying App to Heroku: The Node App would fail to build because of having both the yarn-lock and package.json-lock. By removing the lock that was not used to install most dependencies, the app will then successfully deploy.
+
+* After deploying to heroku, there were http server errors when submitting a city and country. This was from attempting to fetch the api from "http" instead of "https". Simply fixed within the fetch url statement, by adding the correct form of https.

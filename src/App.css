@@ -37,19 +37,19 @@ body {
   color: black;
   font-size: 50px;
   letter-spacing: 2px;
-  line-height: 1.3;
+  line-height: 1.0;
   font-family: 'Roboto Slab', serif;
 }
 
 .title-container__subtitle {
-  color: black;
+  color: yellow;
   font-size: 40px;
   font-style: italic;
   font-weight: 1;
   letter-spacing: 1px;
   line-height: 1.5;
   font-family: 'Roboto Slab', serif;
-  box-shadow: 5px 10px aqua;
+  margin-top: 27%;
 }
 
 .form-container {
