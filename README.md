@@ -16,7 +16,7 @@
 
 * This project was bootstrapped with Create React App.
 
-* Npm start or yarn start will run the application. This should take you to http://localhost:3000/.
+* Npm start is used to run the application. This should take you to http://localhost:3000/.
 
 * Once you type in a city/country and click the button, data will be displayed for Location, Temperature, Humidity, and Description.
 
