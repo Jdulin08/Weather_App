@@ -8,7 +8,7 @@
 
 * Another goal of this application is to further understand the idea of creating reusable components that can be exported/imported to other files. Each component will have its own logic, can be reused in other areas of the project, and controls its own rendering. These reusable components make apps easier to develop and maintain.
 
-* I have written classes and functions for each component to gain a better understanding of the different features offered, such as the way props is used in each scenario.
+* I have written classes and functions for each component to gain a better understanding of the different features offered, such as the way props are used in each scenario.
 
 * Technology used: HTML, CSS, ReactJS
 
@@ -20,8 +20,10 @@
 
 * Once you type in a city/country and click the button, data will be displayed for Location, Temperature, Humidity, and Description.
 
+* If there is an error when using npm start, a deployed version of this application can also be used: https://young-bayou-34108.herokuapp.com/
+
 ## Errors/Glitches
 
-* City and Country names are specific in the API, so when typing in a country, the user needs to know exactly what the countries are labeled as. For example, if the user typed in "United Kingdom", there would be an error because the correct word to submit would specifically be "UK".
-
 * The API from openweathermap is not the current daily weather. It is static so in order to make this a live weather app, it would be necessary to find a new API/API Key that offers real-time weather data.
+
+* Deploying App to Heroku: The Node App would fail to build because of having both the yarn-lock and package.json-lock. By removing the lock that was not used to install most dependencies, the app will then successfully deploy.
