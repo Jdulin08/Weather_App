@@ -43,11 +43,11 @@ body {
 
 .title-container__subtitle {
   color: yellow;
-  font-size: 40px;
+  font-size: 30px;
   font-style: italic;
   font-weight: 1;
   letter-spacing: 1px;
-  line-height: 1.5;
+  line-height: 1.0;
   font-family: 'Roboto Slab', serif;
   margin-top: 27%;
 }
